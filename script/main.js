@@ -13,6 +13,11 @@ closeNav.addEventListener("click", () => {
     blur.style.display = "none"
 })
 
+blur.addEventListener("click", () => {
+    NavBar.classList.remove("active")
+    blur.style.display = "none"
+})
+
 
 // Add Comment
 let commentValue = document.querySelector(".topComment .container .comments .addComment .desc  textarea")
